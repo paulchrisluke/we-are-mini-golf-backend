@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_informations",
+  "info": {
+    "name": "Game Information",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GameID": {
+      "type": "uid"
+    },
+    "NoOfPlayers": {
+      "type": "integer"
+    },
+    "PlayersInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "players-info.players-info"
+    }
+  }
+}
