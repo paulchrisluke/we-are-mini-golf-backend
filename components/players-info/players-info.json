@@ -1,7 +1,7 @@
 {
   "collectionName": "components_players_info_players_infos",
   "info": {
-    "name": "PlayersInfo",
+    "name": "playersInfo",
     "icon": "info",
     "description": ""
   },

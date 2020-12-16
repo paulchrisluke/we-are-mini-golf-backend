@@ -11,13 +11,13 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "GameID": {
+    "gameID": {
       "type": "uid"
     },
-    "NoOfPlayers": {
+    "noOfPlayers": {
       "type": "integer"
     },
-    "PlayersInfo": {
+    "playersInfo": {
       "type": "component",
       "repeatable": true,
       "component": "players-info.players-info"
