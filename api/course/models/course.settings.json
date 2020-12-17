@@ -14,37 +14,11 @@
     "name": {
       "type": "string"
     },
-    "hole": {
-      "type": "integer"
-    },
-    "active": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "inactive": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "isHoleActive": {
-      "type": "boolean",
-      "default": false
-    },
-    "holeNo": {
-      "type": "integer"
+    "squareInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "square-info.square-info",
+      "required": true
     }
   }
 }

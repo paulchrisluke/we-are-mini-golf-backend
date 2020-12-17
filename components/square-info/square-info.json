@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_square_info_square_infos",
+  "info": {
+    "name": "SquareInfo",
+    "icon": "baseball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "holeNo": {
+      "type": "integer"
+    },
+    "active": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "inactive": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "isHoleActive": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
