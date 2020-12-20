@@ -567,6 +567,10 @@
               }
             }
           },
+          "isGameOver": {
+            "type": "boolean",
+            "default": false
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -606,6 +610,10 @@
                 }
               }
             }
+          },
+          "isGameOver": {
+            "type": "boolean",
+            "default": false
           },
           "published_at": {
             "type": "string",
