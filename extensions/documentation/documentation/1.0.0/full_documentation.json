@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "12/20/2020 5:53:41 PM"
+    "x-generation-date": "12/21/2020 5:18:24 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3573,6 +3573,26 @@
             "type": "boolean",
             "default": false
           },
+          "gameReview": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "reviewerName": {
+                "type": "string"
+              },
+              "review": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "number"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3616,6 +3636,26 @@
           "isGameOver": {
             "type": "boolean",
             "default": false
+          },
+          "gameReview": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "reviewerName": {
+                "type": "string"
+              },
+              "review": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "number"
+              }
+            }
           },
           "published_at": {
             "type": "string",

@@ -571,6 +571,26 @@
             "type": "boolean",
             "default": false
           },
+          "gameReview": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "reviewerName": {
+                "type": "string"
+              },
+              "review": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "number"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -614,6 +634,26 @@
           "isGameOver": {
             "type": "boolean",
             "default": false
+          },
+          "gameReview": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "reviewerName": {
+                "type": "string"
+              },
+              "review": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "number"
+              }
+            }
           },
           "published_at": {
             "type": "string",

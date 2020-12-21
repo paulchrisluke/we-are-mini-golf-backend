@@ -25,6 +25,11 @@
     "isGameOver": {
       "type": "boolean",
       "default": false
+    },
+    "gameReview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "game-reviews.game-reviews"
     }
   }
 }
