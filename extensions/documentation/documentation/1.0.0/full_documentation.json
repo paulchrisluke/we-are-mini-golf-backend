@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "12/21/2020 5:18:24 PM"
+    "x-generation-date": "12/22/2020 1:30:01 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3344,6 +3344,9 @@
                 "isHoleActive": {
                   "type": "boolean",
                   "default": false
+                },
+                "GridSquareNumber": {
+                  "type": "integer"
                 }
               }
             }
@@ -3513,6 +3516,9 @@
                 "isHoleActive": {
                   "type": "boolean",
                   "default": false
+                },
+                "GridSquareNumber": {
+                  "type": "integer"
                 }
               }
             }

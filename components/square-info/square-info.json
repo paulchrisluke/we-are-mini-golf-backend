@@ -35,6 +35,9 @@
     "isHoleActive": {
       "type": "boolean",
       "default": false
+    },
+    "GridSquareNumber": {
+      "type": "integer"
     }
   }
 }

@@ -677,6 +677,9 @@
                 "isHoleActive": {
                   "type": "boolean",
                   "default": false
+                },
+                "GridSquareNumber": {
+                  "type": "integer"
                 }
               }
             }
@@ -846,6 +849,9 @@
                 "isHoleActive": {
                   "type": "boolean",
                   "default": false
+                },
+                "GridSquareNumber": {
+                  "type": "integer"
                 }
               }
             }
