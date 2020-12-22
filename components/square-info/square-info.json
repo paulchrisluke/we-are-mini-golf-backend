@@ -38,6 +38,9 @@
     },
     "GridSquareNumber": {
       "type": "integer"
+    },
+    "Par": {
+      "type": "integer"
     }
   }
 }

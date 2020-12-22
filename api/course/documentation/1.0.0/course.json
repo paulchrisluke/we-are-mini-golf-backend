@@ -680,6 +680,9 @@
                 },
                 "GridSquareNumber": {
                   "type": "integer"
+                },
+                "Par": {
+                  "type": "integer"
                 }
               }
             }
@@ -851,6 +854,9 @@
                   "default": false
                 },
                 "GridSquareNumber": {
+                  "type": "integer"
+                },
+                "Par": {
                   "type": "integer"
                 }
               }
