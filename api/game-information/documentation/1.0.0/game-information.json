@@ -591,6 +591,9 @@
               }
             }
           },
+          "courseData": {
+            "type": "object"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -654,6 +657,9 @@
                 "type": "number"
               }
             }
+          },
+          "courseData": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",

@@ -29,7 +29,10 @@
     "gameReview": {
       "type": "component",
       "repeatable": false,
-      "component": "game-reviews.game-reviews"
+      "component": "game-review.game-review"
+    },
+    "courseData": {
+      "type": "json"
     }
   }
 }

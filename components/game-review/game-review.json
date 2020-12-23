@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_game_reviews_game_reviews",
+  "collectionName": "components_game_review_game_reviews",
   "info": {
-    "name": "GameReviews",
+    "name": "GameReview",
     "icon": "star"
   },
   "options": {},
