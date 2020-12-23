@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "12/22/2020 4:13:43 PM"
+    "x-generation-date": "12/23/2020 11:22:46 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -37,7 +37,7 @@
   ],
   "externalDocs": {
     "description": "Find out more",
-    "url": "https://strapi.io/documentation/v3.x/"
+    "url": "https://strapi.io/documentation/developer-docs/latest/"
   },
   "security": [
     {
@@ -3346,9 +3346,13 @@
                   "default": false
                 },
                 "GridSquareNumber": {
-                  "type": "integer"
+                  "type": "string"
                 },
-                "Par": {
+                "isLastHole": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "par": {
                   "type": "integer"
                 }
               }
@@ -3521,9 +3525,13 @@
                   "default": false
                 },
                 "GridSquareNumber": {
-                  "type": "integer"
+                  "type": "string"
                 },
-                "Par": {
+                "isLastHole": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "par": {
                   "type": "integer"
                 }
               }

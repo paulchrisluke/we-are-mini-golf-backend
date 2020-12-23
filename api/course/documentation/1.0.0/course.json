@@ -679,9 +679,13 @@
                   "default": false
                 },
                 "GridSquareNumber": {
-                  "type": "integer"
+                  "type": "string"
                 },
-                "Par": {
+                "isLastHole": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "par": {
                   "type": "integer"
                 }
               }
@@ -854,9 +858,13 @@
                   "default": false
                 },
                 "GridSquareNumber": {
-                  "type": "integer"
+                  "type": "string"
                 },
-                "Par": {
+                "isLastHole": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "par": {
                   "type": "integer"
                 }
               }
