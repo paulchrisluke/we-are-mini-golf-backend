@@ -19,6 +19,9 @@
       "repeatable": true,
       "component": "square-info.square-info",
       "required": true
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
