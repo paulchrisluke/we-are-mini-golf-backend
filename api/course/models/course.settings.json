@@ -22,6 +22,17 @@
     },
     "slug": {
       "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "notificationsOptIn": {
+      "type": "boolean"
+    },
+    "socialInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social-info.social-info"
     }
   }
 }
