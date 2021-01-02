@@ -694,6 +694,32 @@
           "slug": {
             "type": "string"
           },
+          "email": {
+            "type": "string"
+          },
+          "notificationsOptIn": {
+            "type": "boolean"
+          },
+          "socialInfo": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "google": {
+                "type": "string"
+              },
+              "tripAdvisor": {
+                "type": "string"
+              },
+              "yelp": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -875,6 +901,32 @@
           },
           "slug": {
             "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "notificationsOptIn": {
+            "type": "boolean"
+          },
+          "socialInfo": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "google": {
+                "type": "string"
+              },
+              "tripAdvisor": {
+                "type": "string"
+              },
+              "yelp": {
+                "type": "string"
+              }
+            }
           },
           "published_at": {
             "type": "string",

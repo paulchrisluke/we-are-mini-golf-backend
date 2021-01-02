@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_social_info_social_infos",
+  "info": {
+    "name": "socialInfo",
+    "icon": "binoculars"
+  },
+  "options": {},
+  "attributes": {
+    "google": {
+      "type": "string"
+    },
+    "tripAdvisor": {
+      "type": "string"
+    },
+    "yelp": {
+      "type": "string"
+    }
+  }
+}
