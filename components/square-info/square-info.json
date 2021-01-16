@@ -45,6 +45,17 @@
     },
     "par": {
       "type": "integer"
+    },
+    "transitionScreen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
