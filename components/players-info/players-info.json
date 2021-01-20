@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_players_info_players_infos",
+  "info": {
+    "name": "playersInfo",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "totalScore": {
+      "type": "integer"
+    },
+    "holeScore": {
+      "type": "json"
+    }
+  }
+}

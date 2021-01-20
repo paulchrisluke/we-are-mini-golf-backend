@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_game_review_game_reviews",
+  "info": {
+    "name": "GameReview",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "reviewerName": {
+      "type": "string"
+    },
+    "review": {
+      "type": "richtext"
+    },
+    "rating": {
+      "type": "decimal"
+    }
+  }
+}

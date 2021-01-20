@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "Course",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "squareInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "square-info.square-info",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "notificationsOptIn": {
+      "type": "boolean"
+    },
+    "socialInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social-info.social-info"
+    },
+    "numberOfHoles": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_informations",
+  "info": {
+    "name": "Game Information",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gameID": {
+      "type": "uid"
+    },
+    "noOfPlayers": {
+      "type": "integer"
+    },
+    "playersInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "players-info.players-info"
+    },
+    "isGameOver": {
+      "type": "boolean",
+      "default": false
+    },
+    "gameReview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "game-review.game-review"
+    },
+    "courseData": {
+      "type": "json"
+    }
+  }
+}
