@@ -46,7 +46,7 @@
     "par": {
       "type": "integer"
     },
-    "transitionScreenBackground": {
+    "transitionScreenHole": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -57,7 +57,7 @@
       "plugin": "upload",
       "required": false
     },
-    "transitionScreenParInfo": {
+    "transitionScreenPar": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

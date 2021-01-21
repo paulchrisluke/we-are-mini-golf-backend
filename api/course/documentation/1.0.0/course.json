@@ -689,7 +689,7 @@
                 "par": {
                   "type": "integer"
                 },
-                "transitionScreenBackground": {
+                "transitionScreenHole": {
                   "required": [
                     "id",
                     "name",
@@ -756,7 +756,7 @@
                     }
                   }
                 },
-                "transitionScreenParInfo": {
+                "transitionScreenPar": {
                   "required": [
                     "id",
                     "name",
@@ -1035,7 +1035,7 @@
                 "par": {
                   "type": "integer"
                 },
-                "transitionScreenBackground": {
+                "transitionScreenHole": {
                   "required": [
                     "id",
                     "name",
@@ -1102,7 +1102,7 @@
                     }
                   }
                 },
-                "transitionScreenParInfo": {
+                "transitionScreenPar": {
                   "required": [
                     "id",
                     "name",
